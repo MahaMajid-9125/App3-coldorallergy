@@ -146,14 +146,36 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
  </div><!-- /content -->
 
     	</div>
+</div>	
+	<div class="page" id="five">
+	<div id="header" class="w3-container w3-flat-carrot">
+		<h1>Question 5</h1>
+	</div>
 	
-	<div class="page" <p id="five"></p>
+    	<div id="content" class="w3-container">
+	<p>Do your symptoms seem to be triggered by anything specific, like being outdoors, exposure to pets, or certain foods?</p>
+	<a href="#six"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
+         	<a href="#six"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
+	</div>
+</div>	
+	<div class="page" id="six">
+	<div id="header" class="w3-container w3-flat-carrot">
+		<h1>Question 6</h1>
+	</div>
+	
+    	<div id="content" class="w3-container">
+	<p>Do you have any headaches or body aches?</p>
+	<a href="#seven"  onclick="coldAdd();" class="w3-btn w3-black"> Yes</a>
+         	<a href="#seven"  onclick="allergyAdd();" class="w3-btn w3-black">No</a>
+	</div>
+</div>	
+	<div class="page" <p id="seven"></p>
 		<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Results</h1>
 	</div>
 		<p id="results"></p>
 	<div id="content" class="w3-container">
-	<a href="#five" onclick="diagnosisResults();" class="w3-btn w3-black"> Results</a>
+	<a href="#seven" onclick="diagnosisResults();" class="w3-btn w3-black"> Results</a>
 	</div>
 		
 	<p>DIY!</p>
